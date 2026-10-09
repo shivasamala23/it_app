@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 async function initApp() {
-  // Check stored credentials / session
+  // Check stored credentials / session jas
   const storedUrl = localStorage.getItem('odoo_url');
   const storedDb = localStorage.getItem('odoo_db');
   const storedSid = localStorage.getItem('odoo_session_id');
